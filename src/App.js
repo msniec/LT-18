@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import questions from './questions';
 import colors from './colors';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/" >
       <div>
         <Route exact path="/" component={questions} />
         <Route path="/result/:id" component={colors} />
