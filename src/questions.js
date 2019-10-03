@@ -55,7 +55,7 @@ function Question(props) {
   const questions = [
     [
       {
-        question: "Przejmujesz się że zostaniesz 'odkryty'",
+        question: "Czasem przejmujesz się że nie masz wystarcząjących kompetencji by być tu gdzie jesteś?",
         yesAction: goNext(0, 1),
         noAction: goNext(1, 1),
       }
