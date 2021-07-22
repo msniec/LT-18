@@ -53,7 +53,7 @@ function Question(props) {
   const questions = [
     [
       {
-        question: "Czy kiedykolwiek obawiasz się, że zostaniesz odkryty??",
+        question: "Czy kiedykolwiek obawiasz się, że zostaniesz odkryty?",
         yesAction: goNext(0, 1),
         noAction: goNext(1, 1),
       },
@@ -74,7 +74,7 @@ function Question(props) {
     [
       {
         question:
-          'Czy używasz minimalizującego języka? (np. "Chyba", "Wydaje mi się")',
+          'Czy używasz minimalizującego języka? (np. "Chyba", "Wydaje mi się")?',
         yesAction: goNext(0, 3),
         noAction: goNext(1, 3),
       },
@@ -134,7 +134,7 @@ function Question(props) {
     [
       {
         question:
-          "Czy unikasz ubiegania się o pracę, chyba że spełniasz wszystkie wymagania??",
+          "Czy unikasz ubiegania się o pracę, chyba że spełniasz wszystkie wymagania?",
         yesAction: showAnswer(0),
         noAction: showAnswer(1),
       },
